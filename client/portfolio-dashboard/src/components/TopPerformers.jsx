@@ -6,13 +6,13 @@ const TopPerformers = ({ summary }) => {
       <div className="bg-white p-4 shadow rounded">
         <h4 className="text-gray-600 text-sm mb-1">Top Performer</h4>
         <p className="text-lg font-semibold">{summary.topPerformer.name}</p>
-        <p className="text-green-600">{summary.topPerformer.gainPercent}%</p>
+        <p className="text-green-600">{summary.topPerformer.gainLossPercent.toFixed(2)}%</p>
       </div>
 
       <div className="bg-white p-4 shadow rounded">
         <h4 className="text-gray-600 text-sm mb-1">Worst Performer</h4>
         <p className="text-lg font-semibold">{summary.worstPerformer.name}</p>
-        <p className="text-red-600">{summary.worstPerformer.gainPercent}%</p>
+        <p className="text-red-600">{summary.worstPerformer.gainLossPercent.toFixed(2)}%</p>
       </div>
 
       <div className="bg-white p-4 shadow rounded">
