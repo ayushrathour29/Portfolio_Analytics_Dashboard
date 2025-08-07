@@ -1,8 +1,8 @@
 package main
 
 import (
-	"portfolio/routes"
 	"net/http"
+	"portfolio/routes"
 
 	"github.com/gin-gonic/gin"
 )
@@ -27,5 +27,5 @@ func main() {
 	routes.RegisterRoutes(router)
 
 	// Start server
-	router.Run(":8080")
+	router.Run(":10000")
 }
