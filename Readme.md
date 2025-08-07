@@ -2,6 +2,10 @@
 
 The **Portfolio Analytics Dashboard** is a full-stack web application that displays real-time statistics and performance metrics of a user's financial portfolio. It is designed to help investors monitor and evaluate their investments with clarity and ease.
 
+
+![img.png](img.png)
+![img_1.png](img_1.png)
+
 ---
 
 ## 🚀 Features
