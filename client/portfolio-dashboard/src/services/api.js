@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://portfolio-analytics-dashboard-2.onrender.com";
+const BASE_URL = "https://portfolio-analytics-dashboard-2.onrender.com/api/portfolio";
 
 export const getHoldings = () => axios.get(`${BASE_URL}/holdings`);
 export const getAllocation = () => axios.get(`${BASE_URL}/allocation`);
